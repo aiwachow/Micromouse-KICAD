@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP ULN2003ADR
+D Trans Darlington NPN 50V 0.5A SOIC16 Texas Instruments ULN2003ADR, 7-element NPN Darlington Transistor Array, 0.5 A 50 V, 16-Pin SOIC
+K
+F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
+$ENDCMP
+#
+$CMP ESP32-S3-WROOM-1-N4
+D WiFi Modules - 802.11 [Engineering Samples] SMD Module, ESP32-S3, 4 MB SPI Flash, PCB Antenna
+K
+F https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+$ENDCMP
+#
+#End Doc Library
