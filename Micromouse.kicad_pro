@@ -473,6 +473,10 @@
       ""
     ],
     [
+      "1d960ef0-72b4-41e5-8500-c71739e38bd7",
+      "Power"
+    ],
+    [
       "df9ca1eb-1301-4084-b0bd-d1819109a81e",
       "Microcontroller"
     ],
@@ -485,12 +489,8 @@
       "Distance_sensors"
     ],
     [
-      "03505775-4dfd-429c-b4a6-d2af91c50d0e",
-      "Wireless_communication "
-    ],
-    [
-      "1d960ef0-72b4-41e5-8500-c71739e38bd7",
-      "Power"
+      "b0ca49f1-b666-41b0-af33-0b8fee11ee1f",
+      "IMU"
     ]
   ],
   "text_variables": {}

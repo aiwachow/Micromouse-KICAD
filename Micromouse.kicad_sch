@@ -8,7 +8,7 @@
   )
 
 
-  (polyline (pts (xy 110.744 63.754) (xy 110.744 127.762))
+  (polyline (pts (xy 109.22 65.532) (xy 109.22 129.54))
     (stroke (width 0.5) (type default) (color 255 0 47 1))
     (uuid 113f1b26-47b8-433f-95c2-5aee223ad2ff)
   )
@@ -16,7 +16,7 @@
     (stroke (width 0.5) (type default) (color 255 0 47 1))
     (uuid 3e423cfb-d862-409d-ba6c-583f9aff90dc)
   )
-  (polyline (pts (xy 127.508 63.754) (xy 110.744 63.754))
+  (polyline (pts (xy 127.508 65.532) (xy 109.22 65.532))
     (stroke (width 0.5) (type default) (color 255 0 47 1))
     (uuid 9fdff510-88b5-4eab-b324-096a9f2409d1)
   )
@@ -45,17 +45,13 @@
     (effects (font (size 2 2) (thickness 0.254) bold) (justify left bottom))
     (uuid 705e2eb3-5936-44e6-ad14-c58e89ecaa30)
   )
-  (text "[1] Micromouse - Top level Schematic" (at 19.304 21.844 0)
+  (text "[1] Micromouse - Top level Schematic" (at 20.32 22.86 0)
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
     (uuid 73a4dd01-7610-417b-bbd9-318fa043b7ba)
   )
   (text "Hierarchical Sheet" (at 183.642 175.641 0)
     (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
     (uuid 78a9f719-1dfc-4de7-a387-f5c6464b0989)
-  )
-  (text "HC-05 or ESP32 (?) " (at 81.788 137.922 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
-    (uuid a92fba5b-570e-43cc-9676-22ab27b19407)
   )
   (text "BATTERY: LI-PO 2S,\nCONVERTERS: BUCK, LDO" (at 139.954 60.96 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
@@ -64,23 +60,6 @@
   (text "IR DIODE & FOTOTRANSISTORS" (at 71.374 88.392 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid ea5e672b-557a-4897-bd11-016048ece928)
-  )
-
-  (sheet (at 74.168 127.762) (size 37.084 21.082) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 03505775-4dfd-429c-b4a6-d2af91c50d0e)
-    (property "Sheetname" "Wireless_communication " (at 74.168 127.0504 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "WirelssCOM.kicad_sch" (at 74.168 149.4286 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Micromouse"
-        (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d" (page "5"))
-      )
-    )
   )
 
   (sheet (at 189.738 81.407) (size 44.45 25.781) (fields_autoplaced)
@@ -95,7 +74,7 @@
     )
     (instances
       (project "Micromouse"
-        (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d" (page "3"))
+        (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d" (page "4"))
       )
     )
   )
@@ -108,6 +87,23 @@
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "Power.kicad_sch" (at 127.508 69.9266 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Micromouse"
+        (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 86.36 129.54) (size 35.56 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b0ca49f1-b666-41b0-af33-0b8fee11ee1f)
+    (property "Sheetname" "IMU" (at 86.36 128.8284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "imu.kicad_sch" (at 86.36 147.9046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -129,7 +125,7 @@
     )
     (instances
       (project "Micromouse"
-        (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d" (page "4"))
+        (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d" (page "5"))
       )
     )
   )
@@ -146,7 +142,7 @@
     )
     (instances
       (project "Micromouse"
-        (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d" (page "2"))
+        (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d" (page "3"))
       )
     )
   )
