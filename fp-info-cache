@@ -1,4 +1,4 @@
-22104059833974246
+22105769545833489
 Adam_lib
 A_JST_PH_B5B-PH-SM4-TB_1x05-1MP_P2.00mm_Vertical
 JST PH series connector, B5B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
@@ -83992,6 +83992,13 @@ rotary encoder
 0
 7
 6
+SamacSys_Parts
+ESP32S3WROOM1N4
+ESP32-S3-WROOM-1-N4-4
+Integrated Circuit
+0
+49
+49
 SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
