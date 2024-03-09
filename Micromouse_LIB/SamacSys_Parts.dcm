@@ -18,4 +18,10 @@ K
 F https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP STM32F302CBT6
+D STMICROELECTRONICS - STM32F302CBT6 - ARM MCU, General Purpose, STM32 Family STM32F3 Series Microcontrollers, ARM Cortex-M4, 32bit
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00094064.pdf
+$ENDCMP
+#
 #End Doc Library
