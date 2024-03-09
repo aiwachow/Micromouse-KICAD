@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 22107479392277895
 Adam_lib
 A_JST_PH_B5B-PH-SM4-TB_1x05-1MP_P2.00mm_Vertical
@@ -139,6 +140,9 @@ logokonar1
 0
 0
 0
+=======
+22353384958618395
+>>>>>>> 7cf0af56a0502df1a78a9c989f0e4ab39fd16063
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60192,6 +60196,30 @@ solder jumper open
 0
 5
 3
+<<<<<<< HEAD
+=======
+KoNaR_STANDARDY
+adapter_ESP12
+
+
+0
+16
+8
+KoNaR_STANDARDY
+adapter_ESP32
+
+
+0
+38
+35
+KoNaR_STANDARDY
+adapter_STM32
+
+
+0
+48
+43
+>>>>>>> 7cf0af56a0502df1a78a9c989f0e4ab39fd16063
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
