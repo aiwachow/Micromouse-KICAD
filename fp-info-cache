@@ -1,4 +1,4 @@
-22105769545833489
+22107479392277895
 Adam_lib
 A_JST_PH_B5B-PH-SM4-TB_1x05-1MP_P2.00mm_Vertical
 JST PH series connector, B5B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
@@ -84006,6 +84006,13 @@ Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+QFP50P900X900X160-48N
+LQFP48 - 48-pin, 7 x 7 mm low-profile quad flat package outline
+Integrated Circuit
+0
+48
+48
 SamacSys_Parts
 SOIC127P600X175-16N
 D (R-PDSO-G16)

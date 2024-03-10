@@ -10017,7 +10017,7 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 2884285f-7b90-4014-bb0c-fab9c54391c0)
   )
-  (text "TRZEBA DODAĆ UCHWYTY TO MOCOWANIA SILNIKÓW!" (at 114.3 149.86 0)
+  (text "TRZEBA DODAĆ UCHWYTY DO MOCOWANIA SILNIKÓW!" (at 114.3 149.86 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 255 18 16 1)) (justify left bottom))
     (uuid 567d439e-3328-4020-8101-a335894a8b50)
   )
