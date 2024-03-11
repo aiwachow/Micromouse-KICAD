@@ -1090,6 +1090,193 @@
         )
       )
     )
+    (symbol "RF_Module:ESP32-WROOM-32U" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at -12.7 34.29 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "ESP32-WROOM-32U" (at 1.27 34.29 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "RF_Module:ESP32-WROOM-32U" (at 0 -38.1 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" (at -7.62 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "RF Radio BT ESP ESP32 Espressif external U.FL antenna" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "ESP32?WROOM?32U*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "ESP32-WROOM-32U_0_1"
+        (rectangle (start -12.7 33.02) (end 12.7 -33.02)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "ESP32-WROOM-32U_1_1"
+        (pin power_in line (at 0 -35.56 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 -12.7 180) (length 2.54)
+          (name "IO25" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 -15.24 180) (length 2.54)
+          (name "IO26" (effects (font (size 1.27 1.27))))
+          (number "11" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 -17.78 180) (length 2.54)
+          (name "IO27" (effects (font (size 1.27 1.27))))
+          (number "12" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 10.16 180) (length 2.54)
+          (name "IO14" (effects (font (size 1.27 1.27))))
+          (number "13" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 15.24 180) (length 2.54)
+          (name "IO12" (effects (font (size 1.27 1.27))))
+          (number "14" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -35.56 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "15" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 12.7 180) (length 2.54)
+          (name "IO13" (effects (font (size 1.27 1.27))))
+          (number "16" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at -15.24 -5.08 0) (length 2.54)
+          (name "SHD/SD2" (effects (font (size 1.27 1.27))))
+          (number "17" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at -15.24 -7.62 0) (length 2.54)
+          (name "SWP/SD3" (effects (font (size 1.27 1.27))))
+          (number "18" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at -15.24 -12.7 0) (length 2.54)
+          (name "SCS/CMD" (effects (font (size 1.27 1.27))))
+          (number "19" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 35.56 270) (length 2.54)
+          (name "VDD" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at -15.24 -10.16 0) (length 2.54)
+          (name "SCK/CLK" (effects (font (size 1.27 1.27))))
+          (number "20" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at -15.24 0 0) (length 2.54)
+          (name "SDO/SD0" (effects (font (size 1.27 1.27))))
+          (number "21" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at -15.24 -2.54 0) (length 2.54)
+          (name "SDI/SD1" (effects (font (size 1.27 1.27))))
+          (number "22" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 7.62 180) (length 2.54)
+          (name "IO15" (effects (font (size 1.27 1.27))))
+          (number "23" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 25.4 180) (length 2.54)
+          (name "IO2" (effects (font (size 1.27 1.27))))
+          (number "24" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 30.48 180) (length 2.54)
+          (name "IO0" (effects (font (size 1.27 1.27))))
+          (number "25" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 20.32 180) (length 2.54)
+          (name "IO4" (effects (font (size 1.27 1.27))))
+          (number "26" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 5.08 180) (length 2.54)
+          (name "IO16" (effects (font (size 1.27 1.27))))
+          (number "27" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 2.54 180) (length 2.54)
+          (name "IO17" (effects (font (size 1.27 1.27))))
+          (number "28" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 17.78 180) (length 2.54)
+          (name "IO5" (effects (font (size 1.27 1.27))))
+          (number "29" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -15.24 30.48 0) (length 2.54)
+          (name "EN" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 0 180) (length 2.54)
+          (name "IO18" (effects (font (size 1.27 1.27))))
+          (number "30" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 -2.54 180) (length 2.54)
+          (name "IO19" (effects (font (size 1.27 1.27))))
+          (number "31" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at -12.7 -27.94 0) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "32" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 -5.08 180) (length 2.54)
+          (name "IO21" (effects (font (size 1.27 1.27))))
+          (number "33" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 22.86 180) (length 2.54)
+          (name "RXD0/IO3" (effects (font (size 1.27 1.27))))
+          (number "34" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 27.94 180) (length 2.54)
+          (name "TXD0/IO1" (effects (font (size 1.27 1.27))))
+          (number "35" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 -7.62 180) (length 2.54)
+          (name "IO22" (effects (font (size 1.27 1.27))))
+          (number "36" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 -10.16 180) (length 2.54)
+          (name "IO23" (effects (font (size 1.27 1.27))))
+          (number "37" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -35.56 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "38" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -35.56 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "39" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -15.24 25.4 0) (length 2.54)
+          (name "SENSOR_VP" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -15.24 22.86 0) (length 2.54)
+          (name "SENSOR_VN" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 15.24 -25.4 180) (length 2.54)
+          (name "IO34" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 15.24 -27.94 180) (length 2.54)
+          (name "IO35" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 -20.32 180) (length 2.54)
+          (name "IO32" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 15.24 -22.86 180) (length 2.54)
+          (name "IO33" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Switch:SW_MEC_5G" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (at 1.27 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -2411,11 +2598,25 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "ESP_USB_D+" (shape input) (at 346.71 95.25 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 10d1dea7-fe2b-4108-8bca-cc846a9a71d2)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 361.9113 95.25 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "ESP_USB_DP" (shape input) (at 292.862 158.496 180) (fields_autoplaced)
     (effects (font (size 1 1) bold) (justify right))
     (uuid 132620f7-727b-4d55-873c-07b45fca204a)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 280.7557 158.496 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ESP_USB_D-" (shape input) (at 346.71 102.87 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 15ec740a-ec9b-44c7-94d5-2851a3ecce2e)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 361.9113 102.87 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "I2C1_SDA" (shape input) (at 175.4101 175.2168 0) (fields_autoplaced)
@@ -2774,6 +2975,11 @@
           (reference "C316") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C316") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C11") (unit 1)
@@ -2804,6 +3010,11 @@
           (reference "#PWR0318") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "#PWR0318") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "#PWR010") (unit 1)
@@ -2831,6 +3042,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0326") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0326") (unit 1)
         )
       )
@@ -2868,6 +3084,11 @@
           (reference "C324") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C324") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C7") (unit 1)
@@ -2898,6 +3119,11 @@
           (reference "#PWR0301") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "#PWR0301") (unit 1)
+        )
+      )
     )
   )
 
@@ -2920,6 +3146,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0322") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0322") (unit 1)
         )
       )
@@ -2953,6 +3184,11 @@
           (reference "#PWR0313") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "#PWR0313") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "#PWR024") (unit 1)
@@ -2980,6 +3216,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0307") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0307") (unit 1)
         )
       )
@@ -3016,6 +3257,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "SW304") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "SW304") (unit 1)
         )
       )
@@ -3056,6 +3302,11 @@
           (reference "R310") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "R310") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "R6") (unit 1)
@@ -3089,6 +3340,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "SW302") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "SW302") (unit 1)
         )
       )
@@ -3129,6 +3385,11 @@
           (reference "C206") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C206") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C5") (unit 1)
@@ -3163,6 +3424,11 @@
           (reference "C320") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C320") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C5") (unit 1)
@@ -3190,6 +3456,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0317") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0317") (unit 1)
         )
       )
@@ -3226,6 +3497,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "SW204") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "SW204") (unit 1)
         )
       )
@@ -3266,6 +3542,11 @@
           (reference "C315") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C315") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C1") (unit 1)
@@ -3297,6 +3578,11 @@
           (reference "FB302") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "FB302") (unit 1)
+        )
+      )
     )
   )
 
@@ -3323,6 +3609,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "C318") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "C318") (unit 1)
         )
       )
@@ -3356,6 +3647,11 @@
           (reference "#PWR0328") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "#PWR0328") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "#PWR06") (unit 1)
@@ -3386,6 +3682,11 @@
           (reference "#PWR0308") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "#PWR0308") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "#PWR011") (unit 1)
@@ -3413,6 +3714,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0330") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0330") (unit 1)
         )
       )
@@ -3450,6 +3756,11 @@
           (reference "R309") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "R309") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "R6") (unit 1)
@@ -3484,6 +3795,11 @@
           (reference "D303") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "D602") (unit 1)
+        )
+      )
     )
   )
 
@@ -3510,6 +3826,11 @@
           (reference "C321") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C321") (unit 1)
+        )
+      )
     )
   )
 
@@ -3532,6 +3853,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0310") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0310") (unit 1)
         )
       )
@@ -3561,6 +3887,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "D304") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "D304") (unit 1)
         )
       )
@@ -3598,6 +3929,11 @@
           (reference "C313") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C313") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C10") (unit 1)
@@ -3628,6 +3964,11 @@
           (reference "#PWR0324") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "#PWR0324") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "#PWR019") (unit 1)
@@ -3655,6 +3996,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0329") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0329") (unit 1)
         )
       )
@@ -3751,6 +4097,11 @@
           (reference "U302") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "U302") (unit 1)
+        )
+      )
     )
   )
 
@@ -3777,6 +4128,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "C325") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "C325") (unit 1)
         )
       )
@@ -3814,6 +4170,11 @@
           (reference "C326") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C326") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C8") (unit 1)
@@ -3845,6 +4206,11 @@
           (reference "R306") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "R306") (unit 1)
+        )
+      )
     )
   )
 
@@ -3871,6 +4237,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "D302") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "D302") (unit 1)
         )
       )
@@ -3905,6 +4276,11 @@
           (reference "R305") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "R305") (unit 1)
+        )
+      )
     )
   )
 
@@ -3928,6 +4304,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "R208") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "R208") (unit 1)
         )
       )
@@ -3957,6 +4338,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "R307") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "R307") (unit 1)
         )
       )
@@ -3990,6 +4376,11 @@
           (reference "#PWR0312") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "#PWR0312") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "#PWR024") (unit 1)
@@ -4017,6 +4408,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0311") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0311") (unit 1)
         )
       )
@@ -4053,6 +4449,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "SW303") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "SW303") (unit 1)
         )
       )
@@ -4093,6 +4494,11 @@
           (reference "R302") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "R302") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "R7") (unit 1)
@@ -4120,6 +4526,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0314") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0314") (unit 1)
         )
       )
@@ -4157,6 +4568,11 @@
           (reference "C304") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C304") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C14") (unit 1)
@@ -4191,9 +4607,77 @@
           (reference "C306") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C306") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RF_Module:ESP32-WROOM-32U") (at 318.77 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ae4ad723-a339-4073-bf9f-1d973eb03b3e)
+    (property "Reference" "U1" (at 320.9641 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "ESP32-S3" (at 320.9641 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "KoNaR_STANDARDY:adapter_ESP32" (at 318.77 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" (at 311.15 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e3607b5d-c845-4e31-b179-70710e60e311))
+    (pin "10" (uuid b546da43-639d-490c-a606-641332bef95f))
+    (pin "11" (uuid 341c6b86-fed8-49f6-b8f8-45ff54abf31c))
+    (pin "12" (uuid bbb03f25-c8a2-4201-b5f1-0e33a423144d))
+    (pin "13" (uuid 9e254011-64b4-46e9-b5ab-11855177da68))
+    (pin "14" (uuid face8e34-8377-4c9b-afa9-052ac6307915))
+    (pin "15" (uuid 6afe310d-6a27-4706-89e2-f6f502d4404a))
+    (pin "16" (uuid 3dd0500d-9518-430b-8256-4e543f111cc8))
+    (pin "17" (uuid 10c0681c-02c2-4d96-afb2-9a15c7dd56e0))
+    (pin "18" (uuid 708092be-90d3-4c9a-bd6f-0ddd2f514398))
+    (pin "19" (uuid 46ef2a57-edea-410b-865c-793368d7f547))
+    (pin "2" (uuid ab702e91-3759-457b-9003-602d39ac815b))
+    (pin "20" (uuid 578b4fdd-4d8b-4b33-86ed-f2f43b34f19c))
+    (pin "21" (uuid 50869dd8-160f-45b9-a06f-a2aa8cccbfbd))
+    (pin "22" (uuid a1314e76-06a8-4fa5-bfb3-ba43ad7fd573))
+    (pin "23" (uuid 046ff398-37fb-4421-8eb5-ce16f48ad83a))
+    (pin "24" (uuid b49038f8-057c-4081-abfe-c78f8fbb4691))
+    (pin "25" (uuid 53bfb453-7892-49de-b46f-debd035276ee))
+    (pin "26" (uuid b63d25c9-e2c4-4b25-bf34-cdb831ebdb80))
+    (pin "27" (uuid b4233743-7238-4122-9116-b65fea09cb88))
+    (pin "28" (uuid aa3aea1e-3cc8-4a33-8b8a-4005e2458087))
+    (pin "29" (uuid 3c688e1a-46bd-422f-bad3-f407e27f16fd))
+    (pin "3" (uuid e1dd6666-cfa8-490c-9e24-b343e821cb17))
+    (pin "30" (uuid 8cb6691c-5309-4961-9c92-8c7c7d2970d2))
+    (pin "31" (uuid 363fa7e8-e457-4f41-864a-7512442b6490))
+    (pin "32" (uuid 354a3b72-6a04-42b6-ae99-d68035ee469f))
+    (pin "33" (uuid b3d94ac9-1eb3-4733-b29f-1fdd877918e7))
+    (pin "34" (uuid 8eea49d6-7786-4007-ac43-7dd3895a9491))
+    (pin "35" (uuid 352e2b44-8803-4e05-b875-28ea47e4164c))
+    (pin "36" (uuid 3ce00353-b606-4fe3-bd85-17277624aa99))
+    (pin "37" (uuid 7a13dfd6-a2b6-4ff1-acb3-e957a34b7a0f))
+    (pin "38" (uuid e427fcdb-8732-4b33-a53f-5e705f70f7eb))
+    (pin "39" (uuid 43d574c2-6172-4ed1-9867-b6ad7c0fb672))
+    (pin "4" (uuid c4f24e6b-39f9-4ed5-9760-0a9f221f75d2))
+    (pin "5" (uuid 90e81f40-b39e-40e9-b1e2-4d425789bf9c))
+    (pin "6" (uuid 31c7c9fd-a930-4606-b7af-6a881b469530))
+    (pin "7" (uuid 7312e191-687b-42df-a974-816cbce22d0e))
+    (pin "8" (uuid 3265efb4-426f-4d96-b6b6-1e27a6195dd7))
+    (pin "9" (uuid 107984db-08cc-408a-802e-7eab2cdfdca0))
+    (instances
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -4227,6 +4711,11 @@
           (reference "Y302") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "Y302") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "Y1") (unit 1)
@@ -4254,6 +4743,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0219") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0219") (unit 1)
         )
       )
@@ -4296,6 +4790,11 @@
           (reference "J301") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "J301") (unit 1)
+        )
+      )
     )
   )
 
@@ -4322,6 +4821,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "C317") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "C317") (unit 1)
         )
       )
@@ -4352,6 +4856,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0319") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0319") (unit 1)
         )
       )
@@ -4389,6 +4898,11 @@
           (reference "C322") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C322") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C6") (unit 1)
@@ -4417,6 +4931,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "C323") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "C323") (unit 1)
         )
       )
@@ -4449,6 +4968,11 @@
           (reference "C303") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C303") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C18") (unit 1)
@@ -4476,6 +5000,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0323") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0323") (unit 1)
         )
       )
@@ -4513,6 +5042,11 @@
           (reference "C319") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C319") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C4") (unit 1)
@@ -4540,6 +5074,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0216") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0216") (unit 1)
         )
       )
@@ -4573,6 +5112,11 @@
           (reference "#PWR0325") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "#PWR0325") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "#PWR011") (unit 1)
@@ -4603,6 +5147,11 @@
           (reference "#PWR0332") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "#PWR0332") (unit 1)
+        )
+      )
     )
   )
 
@@ -4629,6 +5178,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "D301") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "D301") (unit 1)
         )
       )
@@ -4666,6 +5220,11 @@
           (reference "R304") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "R304") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "R6") (unit 1)
@@ -4693,6 +5252,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0220") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0220") (unit 1)
         )
       )
@@ -4730,6 +5294,11 @@
           (reference "C302") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C302") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C14") (unit 1)
@@ -4757,6 +5326,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0331") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0331") (unit 1)
         )
       )
@@ -4790,6 +5364,11 @@
           (reference "SW301") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "SW601") (unit 1)
+        )
+      )
     )
   )
 
@@ -4812,6 +5391,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0327") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0327") (unit 1)
         )
       )
@@ -4849,6 +5433,11 @@
           (reference "R303") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "R303") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "R7") (unit 1)
@@ -4883,6 +5472,11 @@
           (reference "C305") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C305") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C1") (unit 1)
@@ -4910,6 +5504,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0316") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0316") (unit 1)
         )
       )
@@ -4943,6 +5542,11 @@
           (reference "#PWR0309") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "#PWR0309") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "#PWR07") (unit 1)
@@ -4970,6 +5574,11 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/df9ca1eb-1301-4084-b0bd-d1819109a81e"
+          (reference "#PWR0320") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
           (reference "#PWR0320") (unit 1)
         )
       )
@@ -5007,11 +5616,20 @@
           (reference "C314") (unit 1)
         )
       )
+      (project "Microcontroller"
+        (path "/6335e5b7-4888-4e7c-9daa-306e17bc5a6d"
+          (reference "C314") (unit 1)
+        )
+      )
       (project "STM32F411CEU6_ESP32_IMU"
         (path "/d7c27cc5-4bbb-4454-9d59-2739b0dc6346"
           (reference "C9") (unit 1)
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
