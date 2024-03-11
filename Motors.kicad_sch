@@ -10125,7 +10125,7 @@
   (symbol (lib_id "Device:C_Small") (at 165.1 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a01efea-47ce-43bd-a73d-31181b43e794)
-    (property "Reference" "C402" (at 162.56 59.6963 0)
+    (property "Reference" "C405" (at 162.56 59.6963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 162.56 62.2363 0)
@@ -10142,7 +10142,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "C402") (unit 1)
+          (reference "C405") (unit 1)
         )
       )
     )
@@ -10151,7 +10151,7 @@
   (symbol (lib_id "power:GND") (at 57.912 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d92b483-7738-4a19-9c66-e5553b4144bf)
-    (property "Reference" "#PWR0428" (at 57.912 69.85 0)
+    (property "Reference" "#PWR0403" (at 57.912 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.912 68.58 0)
@@ -10167,7 +10167,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0428") (unit 1)
+          (reference "#PWR0403") (unit 1)
         )
       )
     )
@@ -10176,7 +10176,7 @@
   (symbol (lib_id "power:GND") (at 152.4 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 103a5409-1728-4ac6-8cc7-af049a99b5b1)
-    (property "Reference" "#PWR0424" (at 152.4 69.85 0)
+    (property "Reference" "#PWR0413" (at 152.4 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4028 67.1448 0)
@@ -10192,7 +10192,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0424") (unit 1)
+          (reference "#PWR0413") (unit 1)
         )
       )
     )
@@ -10201,7 +10201,7 @@
   (symbol (lib_id "power:GND") (at 91.44 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 125a13b3-0e76-41d7-87ed-f4612b235b87)
-    (property "Reference" "#PWR0429" (at 91.44 120.65 0)
+    (property "Reference" "#PWR0407" (at 91.44 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 119.38 0)
@@ -10217,7 +10217,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0429") (unit 1)
+          (reference "#PWR0407") (unit 1)
         )
       )
     )
@@ -10226,7 +10226,7 @@
   (symbol (lib_id "power:GND") (at 76.2 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19e9395a-27a1-4abe-8fd1-d77b3b5923be)
-    (property "Reference" "#PWR0302" (at 76.2 120.65 0)
+    (property "Reference" "#PWR0405" (at 76.2 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 119.38 0)
@@ -10242,7 +10242,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0302") (unit 1)
+          (reference "#PWR0405") (unit 1)
         )
       )
     )
@@ -10270,7 +10270,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0420") (unit 1)
+          (reference "#PWR0408") (unit 1)
         )
       )
       (project "STM32F411CEU6_ESP32_IMU"
@@ -10333,7 +10333,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0426") (unit 1)
+          (reference "#PWR0412") (unit 1)
         )
       )
       (project "STM32F411CEU6_ESP32_IMU"
@@ -10366,7 +10366,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0306") (unit 1)
+          (reference "#PWR0401") (unit 1)
         )
       )
       (project "STM32F411CEU6_ESP32_IMU"
@@ -10400,7 +10400,7 @@
           (reference "C201") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "C404") (unit 1)
+          (reference "C402") (unit 1)
         )
       )
     )
@@ -10435,7 +10435,7 @@
   (symbol (lib_id "power:GND") (at 165.1 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cba7885-c392-439b-84b9-ff929f3d845b)
-    (property "Reference" "#PWR0425" (at 165.1 69.85 0)
+    (property "Reference" "#PWR0415" (at 165.1 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1028 67.1448 0)
@@ -10451,7 +10451,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0425") (unit 1)
+          (reference "#PWR0415") (unit 1)
         )
       )
     )
@@ -10460,7 +10460,7 @@
   (symbol (lib_id "power:GND") (at 142.24 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9568093c-9359-4b23-9596-f560bd309940)
-    (property "Reference" "#PWR0423" (at 142.24 100.33 0)
+    (property "Reference" "#PWR0410" (at 142.24 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 99.06 0)
@@ -10476,7 +10476,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0423") (unit 1)
+          (reference "#PWR0410") (unit 1)
         )
       )
     )
@@ -10485,7 +10485,7 @@
   (symbol (lib_id "power:GND") (at 121.92 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fe94ffc-87db-40f4-9f31-94ea108bacd2)
-    (property "Reference" "#PWR0422" (at 121.92 87.63 0)
+    (property "Reference" "#PWR0409" (at 121.92 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.9228 84.9248 0)
@@ -10501,7 +10501,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0422") (unit 1)
+          (reference "#PWR0409") (unit 1)
         )
       )
     )
@@ -10510,7 +10510,7 @@
   (symbol (lib_id "Device:C_Small") (at 152.4 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2e7cafd-752f-4929-8c09-37adaeef5816)
-    (property "Reference" "C401" (at 149.86 59.6963 0)
+    (property "Reference" "C404" (at 149.86 59.6963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 149.86 62.2363 0)
@@ -10527,7 +10527,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "C401") (unit 1)
+          (reference "C404") (unit 1)
         )
       )
     )
@@ -10536,7 +10536,7 @@
   (symbol (lib_id "power:GND") (at 33.02 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5ae960a-f096-4f38-8528-6842ec2fdd40)
-    (property "Reference" "#PWR0303" (at 33.02 92.71 0)
+    (property "Reference" "#PWR0402" (at 33.02 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.02 91.44 0)
@@ -10552,7 +10552,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0303") (unit 1)
+          (reference "#PWR0402") (unit 1)
         )
       )
     )
@@ -10580,7 +10580,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0304") (unit 1)
+          (reference "#PWR0404") (unit 1)
         )
       )
       (project "STM32F411CEU6_ESP32_IMU"
@@ -10594,7 +10594,7 @@
   (symbol (lib_id "Device:R_Small") (at 33.02 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4317ecd-5117-4166-8185-c7c92fc23c4c)
-    (property "Reference" "R301" (at 35.56 64.77 0)
+    (property "Reference" "R401" (at 35.56 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 35.56 67.31 0)
@@ -10611,7 +10611,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "R301") (unit 1)
+          (reference "R401") (unit 1)
         )
       )
     )
@@ -10639,7 +10639,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0427") (unit 1)
+          (reference "#PWR0414") (unit 1)
         )
       )
       (project "STM32F411CEU6_ESP32_IMU"
@@ -10653,7 +10653,7 @@
   (symbol (lib_id "Driver_Motor:TB6612FNG") (at 83.82 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd2deb01-e757-4220-911f-9777ddba1d09)
-    (property "Reference" "U301" (at 93.6341 106.68 0)
+    (property "Reference" "U401" (at 93.6341 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TB6612FNG" (at 93.6341 109.22 0)
@@ -10692,7 +10692,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "U301") (unit 1)
+          (reference "U401") (unit 1)
         )
       )
     )
@@ -10701,7 +10701,7 @@
   (symbol (lib_id "Device:C_Small") (at 33.02 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d22bd9bb-351e-44d9-b1ae-bdc42018efcd)
-    (property "Reference" "C301" (at 35.56 77.4763 0)
+    (property "Reference" "C401" (at 35.56 77.4763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 35.56 80.0163 0)
@@ -10718,7 +10718,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "C301") (unit 1)
+          (reference "C401") (unit 1)
         )
       )
     )
@@ -10746,7 +10746,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0421") (unit 1)
+          (reference "#PWR0411") (unit 1)
         )
       )
       (project "STM32F411CEU6_ESP32_IMU"
@@ -10809,7 +10809,7 @@
           (reference "#PWR0608") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/07d4a2ec-4a57-4e1e-afe9-75db3e9ce20f"
-          (reference "#PWR0305") (unit 1)
+          (reference "#PWR0406") (unit 1)
         )
       )
     )

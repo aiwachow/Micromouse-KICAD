@@ -463,7 +463,7 @@
       )
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/b0ca49f1-b666-41b0-af33-0b8fee11ee1f"
-          (reference "#PWR0621") (unit 1)
+          (reference "#PWR0605") (unit 1)
         )
       )
     )
@@ -559,7 +559,7 @@
       )
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/b0ca49f1-b666-41b0-af33-0b8fee11ee1f"
-          (reference "#PWR0617") (unit 1)
+          (reference "#PWR0601") (unit 1)
         )
       )
     )
@@ -589,7 +589,7 @@
       )
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/b0ca49f1-b666-41b0-af33-0b8fee11ee1f"
-          (reference "#PWR0618") (unit 1)
+          (reference "#PWR0602") (unit 1)
         )
       )
     )
@@ -626,7 +626,7 @@
       )
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/b0ca49f1-b666-41b0-af33-0b8fee11ee1f"
-          (reference "C609") (unit 1)
+          (reference "C601") (unit 1)
         )
       )
     )
@@ -663,7 +663,7 @@
       )
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/b0ca49f1-b666-41b0-af33-0b8fee11ee1f"
-          (reference "C610") (unit 1)
+          (reference "C602") (unit 1)
         )
       )
     )
@@ -693,7 +693,7 @@
       )
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/b0ca49f1-b666-41b0-af33-0b8fee11ee1f"
-          (reference "#PWR0620") (unit 1)
+          (reference "#PWR0604") (unit 1)
         )
       )
     )
@@ -723,7 +723,7 @@
       )
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/b0ca49f1-b666-41b0-af33-0b8fee11ee1f"
-          (reference "#PWR0619") (unit 1)
+          (reference "#PWR0603") (unit 1)
         )
       )
     )

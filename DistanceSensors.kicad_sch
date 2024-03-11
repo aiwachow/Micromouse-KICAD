@@ -1081,13 +1081,13 @@
   (symbol (lib_id "Device:LED") (at 205.74 111.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0151f3e0-9710-4c3b-8766-a783d2074a99)
-    (property "Reference" "D402" (at 203.2 114.6175 90)
+    (property "Reference" "D505" (at 203.2 114.6175 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED" (at 203.2 112.0775 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 205.74 111.76 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 205.74 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 111.76 0)
@@ -1098,7 +1098,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "D402") (unit 1)
+          (reference "D505") (unit 1)
         )
       )
     )
@@ -1107,7 +1107,7 @@
   (symbol (lib_id "power:+3V3") (at 231.14 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01d64a86-492d-4094-adbe-f5eab262ff22)
-    (property "Reference" "#PWR0506" (at 231.14 46.99 0)
+    (property "Reference" "#PWR0522" (at 231.14 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 231.14 38.1 0)
@@ -1123,7 +1123,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0506") (unit 1)
+          (reference "#PWR0522") (unit 1)
         )
       )
     )
@@ -1152,7 +1152,7 @@
           (reference "R208") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "R407") (unit 1)
+          (reference "R512") (unit 1)
         )
       )
     )
@@ -1181,7 +1181,7 @@
           (reference "R208") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "R401") (unit 1)
+          (reference "R501") (unit 1)
         )
       )
     )
@@ -1210,7 +1210,7 @@
           (reference "R208") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "R406") (unit 1)
+          (reference "R511") (unit 1)
         )
       )
     )
@@ -1239,7 +1239,7 @@
           (reference "R208") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "R405") (unit 1)
+          (reference "R509") (unit 1)
         )
       )
     )
@@ -1268,7 +1268,7 @@
           (reference "R208") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "R412") (unit 1)
+          (reference "R502") (unit 1)
         )
       )
     )
@@ -1277,7 +1277,7 @@
   (symbol (lib_id "power:+5V") (at 205.74 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15cc7856-3090-48ae-97bc-5d2dd0bf1362)
-    (property "Reference" "#PWR0412" (at 205.74 102.87 0)
+    (property "Reference" "#PWR0520" (at 205.74 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 205.74 93.98 0)
@@ -1293,7 +1293,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0412") (unit 1)
+          (reference "#PWR0520") (unit 1)
         )
       )
     )
@@ -1351,7 +1351,7 @@
           (reference "R208") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "R409") (unit 1)
+          (reference "R508") (unit 1)
         )
       )
     )
@@ -1360,7 +1360,7 @@
   (symbol (lib_id "power:GND") (at 129.54 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2db917f8-b836-41df-b59a-9aea8ec3ce0f)
-    (property "Reference" "#PWR0508" (at 129.54 118.11 0)
+    (property "Reference" "#PWR0509" (at 129.54 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 116.84 0)
@@ -1376,7 +1376,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0508") (unit 1)
+          (reference "#PWR0509") (unit 1)
         )
       )
     )
@@ -1385,7 +1385,7 @@
   (symbol (lib_id "power:+3V3") (at 88.9 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ddc7c49-1052-44d9-9fdc-d9df4ea47ef7)
-    (property "Reference" "#PWR0501" (at 88.9 46.99 0)
+    (property "Reference" "#PWR0502" (at 88.9 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 88.9 38.1 0)
@@ -1401,7 +1401,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0501") (unit 1)
+          (reference "#PWR0502") (unit 1)
         )
       )
     )
@@ -1410,7 +1410,7 @@
   (symbol (lib_id "power:GND") (at 157.48 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3134e251-7c6c-4460-a0b0-b5361af8f000)
-    (property "Reference" "#PWR0509" (at 157.48 118.11 0)
+    (property "Reference" "#PWR0513" (at 157.48 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 116.84 0)
@@ -1426,7 +1426,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0509") (unit 1)
+          (reference "#PWR0513") (unit 1)
         )
       )
     )
@@ -1435,7 +1435,7 @@
   (symbol (lib_id "power:GND") (at 215.9 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3452f6b7-753a-4448-a178-752f1fd9d3f1)
-    (property "Reference" "#PWR0511" (at 215.9 118.11 0)
+    (property "Reference" "#PWR0521" (at 215.9 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.9 116.84 0)
@@ -1451,7 +1451,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0511") (unit 1)
+          (reference "#PWR0521") (unit 1)
         )
       )
     )
@@ -1460,7 +1460,7 @@
   (symbol (lib_id "power:GND") (at 114.3 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a949c88-683b-465f-a126-d907d2324a4e)
-    (property "Reference" "#PWR0402" (at 114.3 77.47 0)
+    (property "Reference" "#PWR0507" (at 114.3 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 76.2 0)
@@ -1476,7 +1476,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0402") (unit 1)
+          (reference "#PWR0507") (unit 1)
         )
       )
     )
@@ -1485,7 +1485,7 @@
   (symbol (lib_id "power:+3V3") (at 142.24 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4043eac1-d495-46b8-8466-137023b814dd)
-    (property "Reference" "#PWR0503" (at 142.24 46.99 0)
+    (property "Reference" "#PWR0510" (at 142.24 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 142.24 38.1 0)
@@ -1501,7 +1501,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0503") (unit 1)
+          (reference "#PWR0510") (unit 1)
         )
       )
     )
@@ -1530,7 +1530,7 @@
           (reference "R208") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "R408") (unit 1)
+          (reference "R510") (unit 1)
         )
       )
     )
@@ -1539,7 +1539,7 @@
   (symbol (lib_id "power:GND") (at 200.66 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5490906a-dd0a-4223-acfe-e53777c6dc52)
-    (property "Reference" "#PWR0405" (at 200.66 77.47 0)
+    (property "Reference" "#PWR0519" (at 200.66 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 76.2 0)
@@ -1555,7 +1555,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0405") (unit 1)
+          (reference "#PWR0519") (unit 1)
         )
       )
     )
@@ -1564,7 +1564,7 @@
   (symbol (lib_id "power:+5V") (at 119.38 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57343d91-d13b-4352-8393-3d4cc37026d0)
-    (property "Reference" "#PWR0409" (at 119.38 102.87 0)
+    (property "Reference" "#PWR0508" (at 119.38 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 119.38 93.98 0)
@@ -1580,7 +1580,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0409") (unit 1)
+          (reference "#PWR0508") (unit 1)
         )
       )
     )
@@ -1589,7 +1589,7 @@
   (symbol (lib_id "power:+3V3") (at 200.66 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5755cb13-72dd-47fb-a393-fe7f463f0781)
-    (property "Reference" "#PWR0505" (at 200.66 46.99 0)
+    (property "Reference" "#PWR0518" (at 200.66 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 200.66 38.1 0)
@@ -1605,7 +1605,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0505") (unit 1)
+          (reference "#PWR0518") (unit 1)
         )
       )
     )
@@ -1614,7 +1614,7 @@
   (symbol (lib_id "SamacSys_Parts:ULN2003ADR") (at 38.1 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a7fec90-f193-4e81-a514-21860de065b2)
-    (property "Reference" "IC401" (at 50.8 114.3 0)
+    (property "Reference" "IC501" (at 50.8 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ULN2003ADR" (at 50.8 116.84 0)
@@ -1660,7 +1660,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "IC401") (unit 1)
+          (reference "IC501") (unit 1)
         )
       )
     )
@@ -1698,7 +1698,7 @@
   (symbol (lib_id "Device:Q_Photo_NPN") (at 111.76 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c8df8b8-ad5e-4988-87cb-ac050f0698cd)
-    (property "Reference" "Q402" (at 117.094 51.3207 0)
+    (property "Reference" "Q502" (at 117.094 51.3207 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_Photo_NPN" (at 117.094 53.8607 0)
@@ -1715,7 +1715,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "Q402") (unit 1)
+          (reference "Q502") (unit 1)
         )
       )
     )
@@ -1724,7 +1724,7 @@
   (symbol (lib_id "power:+5V") (at 147.32 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ca99c95-09ba-46a6-ba8f-7248444f6494)
-    (property "Reference" "#PWR0410" (at 147.32 102.87 0)
+    (property "Reference" "#PWR0512" (at 147.32 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 147.32 93.98 0)
@@ -1740,7 +1740,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0410") (unit 1)
+          (reference "#PWR0512") (unit 1)
         )
       )
     )
@@ -1749,7 +1749,7 @@
   (symbol (lib_id "power:GND") (at 241.3 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64b5ebcd-4504-4442-9e47-d67c0211b656)
-    (property "Reference" "#PWR0512" (at 241.3 118.11 0)
+    (property "Reference" "#PWR0525" (at 241.3 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 116.84 0)
@@ -1765,7 +1765,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0512") (unit 1)
+          (reference "#PWR0525") (unit 1)
         )
       )
     )
@@ -1794,7 +1794,7 @@
           (reference "R208") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "R402") (unit 1)
+          (reference "R503") (unit 1)
         )
       )
     )
@@ -1803,7 +1803,7 @@
   (symbol (lib_id "Device:Q_Photo_NPN") (at 86.36 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a01d26a-de5f-43dd-9e44-b8695c00f901)
-    (property "Reference" "Q401" (at 91.44 43.18 0)
+    (property "Reference" "Q501" (at 91.44 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SFH 300 FA-3/4" (at 91.44 45.72 0)
@@ -1820,7 +1820,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "Q401") (unit 1)
+          (reference "Q501") (unit 1)
         )
       )
     )
@@ -1849,7 +1849,7 @@
           (reference "R208") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "R411") (unit 1)
+          (reference "R504") (unit 1)
         )
       )
     )
@@ -1858,7 +1858,7 @@
   (symbol (lib_id "power:GND") (at 35.56 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d5b0625-8932-403e-8939-680701c0dd70)
-    (property "Reference" "#PWR0407" (at 35.56 156.21 0)
+    (property "Reference" "#PWR0501" (at 35.56 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 35.56 154.94 0)
@@ -1874,7 +1874,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0407") (unit 1)
+          (reference "#PWR0501") (unit 1)
         )
       )
     )
@@ -1883,7 +1883,7 @@
   (symbol (lib_id "power:GND") (at 231.14 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75eaca08-b410-49f7-87f9-3225fb09f38f)
-    (property "Reference" "#PWR0406" (at 231.14 77.47 0)
+    (property "Reference" "#PWR0523" (at 231.14 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.14 76.2 0)
@@ -1899,7 +1899,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0406") (unit 1)
+          (reference "#PWR0523") (unit 1)
         )
       )
     )
@@ -1908,7 +1908,7 @@
   (symbol (lib_id "Device:Q_Photo_NPN") (at 198.12 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 783b4f0c-b080-4472-baeb-b1fbcefe8c37)
-    (property "Reference" "Q405" (at 203.454 51.3207 0)
+    (property "Reference" "Q505" (at 203.454 51.3207 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_Photo_NPN" (at 203.454 53.8607 0)
@@ -1925,7 +1925,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "Q405") (unit 1)
+          (reference "Q505") (unit 1)
         )
       )
     )
@@ -1934,7 +1934,7 @@
   (symbol (lib_id "power:GND") (at 88.9 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c6cb658-a8ce-4411-bf81-cc846bd0c795)
-    (property "Reference" "#PWR0401" (at 88.9 77.47 0)
+    (property "Reference" "#PWR0503" (at 88.9 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 76.2 0)
@@ -1950,7 +1950,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0401") (unit 1)
+          (reference "#PWR0503") (unit 1)
         )
       )
     )
@@ -1979,7 +1979,7 @@
           (reference "R208") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "R403") (unit 1)
+          (reference "R505") (unit 1)
         )
       )
     )
@@ -2017,13 +2017,13 @@
   (symbol (lib_id "Device:LED") (at 88.9 111.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88620545-3e2f-4bd0-ab86-96a8a1808b5e)
-    (property "Reference" "D406" (at 81.28 106.68 90)
+    (property "Reference" "D501" (at 81.28 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SFH 4550" (at 85.8278 108.6538 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 88.9 111.76 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 88.9 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 111.76 0)
@@ -2034,7 +2034,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "D406") (unit 1)
+          (reference "D501") (unit 1)
         )
       )
     )
@@ -2043,7 +2043,7 @@
   (symbol (lib_id "Device:Q_Photo_NPN") (at 139.7 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89f006cf-3deb-4e6b-b210-9cd1531f7b1d)
-    (property "Reference" "Q403" (at 145.034 51.3207 0)
+    (property "Reference" "Q503" (at 145.034 51.3207 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_Photo_NPN" (at 145.034 53.8607 0)
@@ -2060,7 +2060,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "Q403") (unit 1)
+          (reference "Q503") (unit 1)
         )
       )
     )
@@ -2069,7 +2069,7 @@
   (symbol (lib_id "power:+5V") (at 231.14 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9269325b-bb11-4425-8b5c-a759e67fbaf6)
-    (property "Reference" "#PWR0419" (at 231.14 102.87 0)
+    (property "Reference" "#PWR0524" (at 231.14 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 231.14 93.98 0)
@@ -2085,7 +2085,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0419") (unit 1)
+          (reference "#PWR0524") (unit 1)
         )
       )
     )
@@ -2094,13 +2094,13 @@
   (symbol (lib_id "Device:LED") (at 231.14 111.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92bad560-9725-4f80-964a-efcc6219b56b)
-    (property "Reference" "D401" (at 228.6 114.6175 90)
+    (property "Reference" "D506" (at 228.6 114.6175 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED" (at 228.6 112.0775 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 231.14 111.76 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 231.14 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 231.14 111.76 0)
@@ -2111,7 +2111,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "D401") (unit 1)
+          (reference "D506") (unit 1)
         )
       )
     )
@@ -2120,7 +2120,7 @@
   (symbol (lib_id "Device:Q_Photo_NPN") (at 170.18 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95e29e5d-a5d2-4106-ac73-3f5b09a3430f)
-    (property "Reference" "Q404" (at 175.514 51.3207 0)
+    (property "Reference" "Q504" (at 175.514 51.3207 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_Photo_NPN" (at 175.514 53.8607 0)
@@ -2137,7 +2137,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "Q404") (unit 1)
+          (reference "Q504") (unit 1)
         )
       )
     )
@@ -2146,13 +2146,13 @@
   (symbol (lib_id "Device:LED") (at 177.8 111.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97ae8831-1408-4c01-9399-a8a50ba0f1a3)
-    (property "Reference" "D403" (at 175.26 114.6175 90)
+    (property "Reference" "D504" (at 175.26 114.6175 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED" (at 175.26 112.0775 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 177.8 111.76 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 177.8 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 111.76 0)
@@ -2163,7 +2163,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "D403") (unit 1)
+          (reference "D504") (unit 1)
         )
       )
     )
@@ -2192,7 +2192,7 @@
           (reference "R208") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "R404") (unit 1)
+          (reference "R507") (unit 1)
         )
       )
     )
@@ -2201,7 +2201,7 @@
   (symbol (lib_id "power:+5V") (at 88.9 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1ea2896-41cd-4ca0-8cd3-2d8d02188314)
-    (property "Reference" "#PWR0408" (at 88.9 102.87 0)
+    (property "Reference" "#PWR0504" (at 88.9 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 88.9 93.98 0)
@@ -2217,7 +2217,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0408") (unit 1)
+          (reference "#PWR0504") (unit 1)
         )
       )
     )
@@ -2226,7 +2226,7 @@
   (symbol (lib_id "power:+3V3") (at 114.3 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1f60581-7469-4082-af55-1f0be2dc9c74)
-    (property "Reference" "#PWR0502" (at 114.3 46.99 0)
+    (property "Reference" "#PWR0506" (at 114.3 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 114.3 38.1 0)
@@ -2242,7 +2242,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0502") (unit 1)
+          (reference "#PWR0506") (unit 1)
         )
       )
     )
@@ -2271,7 +2271,7 @@
           (reference "R208") (unit 1)
         )
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "R410") (unit 1)
+          (reference "R506") (unit 1)
         )
       )
     )
@@ -2280,7 +2280,7 @@
   (symbol (lib_id "power:+5V") (at 177.8 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3f035d8-3e10-48e5-a064-8978f03c6d4b)
-    (property "Reference" "#PWR0411" (at 177.8 102.87 0)
+    (property "Reference" "#PWR0516" (at 177.8 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 177.8 93.98 0)
@@ -2296,7 +2296,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0411") (unit 1)
+          (reference "#PWR0516") (unit 1)
         )
       )
     )
@@ -2305,7 +2305,7 @@
   (symbol (lib_id "power:GND") (at 99.06 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcaaa9fd-6f10-4551-9637-3c31ce08a9c3)
-    (property "Reference" "#PWR0507" (at 99.06 118.11 0)
+    (property "Reference" "#PWR0505" (at 99.06 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 116.84 0)
@@ -2321,7 +2321,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0507") (unit 1)
+          (reference "#PWR0505") (unit 1)
         )
       )
     )
@@ -2330,7 +2330,7 @@
   (symbol (lib_id "power:GND") (at 172.72 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be9bc1f9-8fd2-4732-bef0-f9a64f63825d)
-    (property "Reference" "#PWR0404" (at 172.72 77.47 0)
+    (property "Reference" "#PWR0515" (at 172.72 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 172.72 76.2 0)
@@ -2346,7 +2346,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0404") (unit 1)
+          (reference "#PWR0515") (unit 1)
         )
       )
     )
@@ -2355,7 +2355,7 @@
   (symbol (lib_id "power:GND") (at 142.24 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c05b8ea0-869f-4881-898b-dea83340bcb3)
-    (property "Reference" "#PWR0403" (at 142.24 77.47 0)
+    (property "Reference" "#PWR0511" (at 142.24 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 76.2 0)
@@ -2371,7 +2371,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0403") (unit 1)
+          (reference "#PWR0511") (unit 1)
         )
       )
     )
@@ -2409,7 +2409,7 @@
   (symbol (lib_id "power:GND") (at 187.96 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7f90eb7-1c09-4a80-b153-f47dcf9963b8)
-    (property "Reference" "#PWR0510" (at 187.96 118.11 0)
+    (property "Reference" "#PWR0517" (at 187.96 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 187.96 116.84 0)
@@ -2425,7 +2425,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0510") (unit 1)
+          (reference "#PWR0517") (unit 1)
         )
       )
     )
@@ -2434,7 +2434,7 @@
   (symbol (lib_id "power:+3V3") (at 172.72 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6d9dadd-8d22-44ae-93f6-e07152b242cf)
-    (property "Reference" "#PWR0504" (at 172.72 46.99 0)
+    (property "Reference" "#PWR0514" (at 172.72 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 172.72 38.1 0)
@@ -2450,7 +2450,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "#PWR0504") (unit 1)
+          (reference "#PWR0514") (unit 1)
         )
       )
     )
@@ -2488,13 +2488,13 @@
   (symbol (lib_id "Device:LED") (at 147.32 111.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0d4bd0e-36ab-4271-8ecb-2ccabb3c733e)
-    (property "Reference" "D404" (at 144.78 114.6175 90)
+    (property "Reference" "D503" (at 144.78 114.6175 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED" (at 144.78 112.0775 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 147.32 111.76 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 147.32 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 111.76 0)
@@ -2505,7 +2505,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "D404") (unit 1)
+          (reference "D503") (unit 1)
         )
       )
     )
@@ -2543,13 +2543,13 @@
   (symbol (lib_id "Device:LED") (at 119.38 111.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4118bb6-8859-4b67-bd7f-33da5a77f078)
-    (property "Reference" "D405" (at 116.84 114.6175 90)
+    (property "Reference" "D502" (at 116.84 114.6175 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED" (at 116.84 112.0775 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 119.38 111.76 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 119.38 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 119.38 111.76 0)
@@ -2560,7 +2560,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "D405") (unit 1)
+          (reference "D502") (unit 1)
         )
       )
     )
@@ -2569,7 +2569,7 @@
   (symbol (lib_id "Device:Q_Photo_NPN") (at 228.6 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fbe83b02-b92d-434b-b2d7-c130562573f3)
-    (property "Reference" "Q406" (at 233.934 51.3207 0)
+    (property "Reference" "Q506" (at 233.934 51.3207 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_Photo_NPN" (at 233.934 53.8607 0)
@@ -2586,7 +2586,7 @@
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/c47e922f-d1e4-46e0-9839-e071036add76"
-          (reference "Q406") (unit 1)
+          (reference "Q506") (unit 1)
         )
       )
     )
