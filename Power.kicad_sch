@@ -3173,12 +3173,12 @@
     (property "LCSC Part #" "" (at 43.18 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b697a999-5d23-4941-a4db-df6aa259f701))
-    (pin "2" (uuid bdc63bc0-a932-466b-a576-6cecb29cc0a7))
-    (pin "3" (uuid 7848ff9d-83e3-42f1-9902-7734edbee9c9))
-    (pin "4" (uuid 8847880a-bffc-4c7d-b898-b60e5d74e1da))
-    (pin "5" (uuid dd7ca4b8-8d72-491b-a081-c61ff4edd3e8))
-    (pin "6" (uuid 702b9deb-d93b-4f90-925a-ada0b026d514))
+    (pin "1" (uuid 11fdb5b4-d06e-4dbc-a574-a3fa93631da4))
+    (pin "2" (uuid dd5a6d58-c0ee-4b65-bf75-6be434cacb02))
+    (pin "3" (uuid 05f22fee-d8d5-42bf-b82a-941c3864573a))
+    (pin "4" (uuid e7750535-d236-4b53-8e5d-686d8ef78e3f))
+    (pin "5" (uuid afcf99ef-6ad3-4fff-bb1d-502d06e79e6a))
+    (pin "6" (uuid 5439d477-aa96-4fea-b678-c2625ddb8fc2))
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/1d960ef0-72b4-41e5-8500-c71739e38bd7"
@@ -3541,7 +3541,7 @@
     (property "Datasheet" "" (at 43.18 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3d1e5d7c-72a5-4192-8a9d-53061e5ac952))
+    (pin "1" (uuid 1104d613-b34b-4958-9510-0599d48246db))
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/1d960ef0-72b4-41e5-8500-c71739e38bd7"
@@ -3724,7 +3724,7 @@
     (property "Datasheet" "" (at 43.18 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bbf4d43e-b824-4994-99d6-06ae5fa5f9ad))
+    (pin "1" (uuid 75c38c46-74c7-4f53-ab01-1ac459187b5b))
     (instances
       (project "Micromouse"
         (path "/4e1363f1-0338-4205-b4c3-be947d5bb41d/1d960ef0-72b4-41e5-8500-c71739e38bd7"

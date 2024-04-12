@@ -4656,8 +4656,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b5830034-72a2-4117-b621-9f8f79a52a3a))
-    (pin "2" (uuid 53087581-76ae-40b5-ac06-424c05942721))
-    (pin "2" (uuid 53087581-76ae-40b5-ac06-424c05942721))
+    (pin "2" (uuid 53087581-76ae-40b5-ac06-424c05942723))
+    (pin "2" (uuid 53087581-76ae-40b5-ac06-424c05942723))
     (pin "4" (uuid fd49b77c-bec9-47d0-91e9-43ecb085108c))
     (instances
       (project "Micromouse"
@@ -4732,8 +4732,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aeb9ac45-2f64-48c7-be3f-50c87f5e8ba5))
-    (pin "2" (uuid a7163540-4fc3-4ab3-99d7-699f2ef1e19d))
-    (pin "2" (uuid a7163540-4fc3-4ab3-99d7-699f2ef1e19d))
+    (pin "2" (uuid a7163540-4fc3-4ab3-99d7-699f2ef1e19f))
+    (pin "2" (uuid a7163540-4fc3-4ab3-99d7-699f2ef1e19f))
     (pin "4" (uuid 51c06de3-e50b-4d5e-95ba-94a91d001291))
     (instances
       (project "Micromouse"
@@ -4972,8 +4972,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a3feb6c8-ef4b-437a-864a-c1a0fbfe3331))
-    (pin "2" (uuid 05a5d4b5-a630-4c1d-93b7-2f0b08cac32f))
-    (pin "2" (uuid 05a5d4b5-a630-4c1d-93b7-2f0b08cac32f))
+    (pin "2" (uuid 05a5d4b5-a630-4c1d-93b7-2f0b08cac331))
+    (pin "2" (uuid 05a5d4b5-a630-4c1d-93b7-2f0b08cac331))
     (pin "4" (uuid f3118b67-ccc5-4559-9a08-ecea3f23a431))
     (instances
       (project "Micromouse"
@@ -6080,8 +6080,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d8dbcc63-86dc-401b-b1d1-e70f3a5bff6f))
-    (pin "2" (uuid 2d55647a-caea-4a80-aeab-f95cba1e8b6e))
-    (pin "2" (uuid 2d55647a-caea-4a80-aeab-f95cba1e8b6e))
+    (pin "2" (uuid 2d55647a-caea-4a80-aeab-f95cba1e8b70))
+    (pin "2" (uuid 2d55647a-caea-4a80-aeab-f95cba1e8b70))
     (pin "4" (uuid 8eba073b-f9c4-4625-bcc0-8a207fc2873e))
     (instances
       (project "Micromouse"
@@ -6334,8 +6334,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ccca26d8-6093-4351-995e-a1fc0887b14c))
-    (pin "2" (uuid 4f79168a-508f-475a-8934-c542304cecad))
-    (pin "2" (uuid 4f79168a-508f-475a-8934-c542304cecad))
+    (pin "2" (uuid 4f79168a-508f-475a-8934-c542304cecaf))
+    (pin "2" (uuid 4f79168a-508f-475a-8934-c542304cecaf))
     (pin "4" (uuid 68077e13-fa92-4c60-99da-3fc711b8492d))
     (instances
       (project "Micromouse"
