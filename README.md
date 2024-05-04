@@ -8,10 +8,14 @@ and wireless communication for STM32. Walls are detecting by IR diodes and photo
 
 ## Used software: 
 ![kicadlogo](https://github.com/aiwachow/Micromouse_Hardware/assets/92248273/8c590a70-78c1-4293-bc5e-02a7723171ed) ![stm32cubeideLOGO](https://github.com/aiwachow/Micromouse_Hardware/assets/92248273/35800445-a62c-46c4-b7a9-888d3d31070a)
-## Things to check: 
-- [x] STM works fine  
-- [ ] 
--
--
+## Things that have been tested and work:
+- [x] Hardware 
+- [x] STM32, flashing via ST-LINK  
+- [x] Dc motors (with driver)
+- [x] Encoders 
+- [ ] Proximity sensor 
+- [ ] ESP32
+
+
 
 
