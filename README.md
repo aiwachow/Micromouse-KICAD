@@ -12,9 +12,10 @@ and wireless communication for STM32. Walls are detecting by IR diodes and photo
 - [x] STM32, flashing via ST-LINK  
 - [x] Dc motors (with driver)
 - [x] Encoders 
-- [ ] Proximity sensor 
+- [x] Proximity sensor 
 - [ ] ESP32
 
+## Software 
 
-
+In the future, there will be a description of two approaches to the robot's software, as two two-person teams are working on the project.  
 
